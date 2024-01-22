@@ -7,12 +7,12 @@ while true; do
     # Get the process ID of the command
     pid=$!
 
-    # Allow the command to run for 100 seconds
-    sleep 100
+    # Allow the command to run for 3600 seconds
+    sleep 3600
 
     # Terminate the command gracefully
     kill $pid
 
-    # Wait for 10 seconds before restarting
-    sleep 10
+    # Wait for 600 seconds before restarting
+    sleep 600
 done
